@@ -2,7 +2,6 @@
 
 A daily soil water balance (FAO-56, Allen et al. 1998) that forecasts the volumetric soil moisture measured by EM-500 probes from 1 to 7 days ahead. The model is driven by weather forecasts (rain and reference evapotranspiration ET0), crop coefficients (Kc) and logged irrigation events.
 
-![One-day-ahead forecast for a maize field](output/grafici/serie/EM-500-15_2_mais_2026-03-25.png)
 
 ## Model
 
