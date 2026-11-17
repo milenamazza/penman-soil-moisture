@@ -1,0 +1,5 @@
+# dataset grezzo (circa 1.7 GB), non incluso
+dati/dataset_pulito.csv
+__pycache__/
+*.pyc
+output/log*.txt

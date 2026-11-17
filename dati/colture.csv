@@ -1,0 +1,25 @@
+# Parametri FAO-56 per coltura.
+# Fonte di Kc e durate delle fasi: FAO Irrigation and Drainage Paper 56
+# (Allen et al., 1998), tabelle 11 e 12; frazione p: tabella 22.
+#
+#   coltura   nome della coltura, come nella colonna COLTURA di sensori.csv
+#   kc_ini    coefficiente colturale nella fase iniziale
+#   kc_mid    coefficiente colturale in piena vegetazione
+#   kc_end    coefficiente colturale a fine ciclo
+#   lini      durata della fase iniziale (giorni)
+#   ldev      durata della fase di sviluppo (giorni)
+#   lmid      durata della piena vegetazione (giorni)
+#   llate     durata della fase finale (giorni)
+#   fc        capacità di campo (% vol)
+#   wp        punto di appassimento (% vol)
+#   p         frazione di acqua disponibile prima dello stress idrico
+#   note      provenienza dei valori
+#
+coltura,kc_ini,kc_mid,kc_end,lini,ldev,lmid,llate,fc,wp,p,note
+mais,0.30,1.20,0.50,20,25,25,10,45,18,0.55,FAO-56 mais dolce mediterraneo
+sorgo,0.40,0.75,1.00,20,35,40,30,45,18,0.55,FAO-56 mediterraneo
+carciofo,0.50,1.00,0.95,40,40,250,30,45,18,0.45,FAO-56 ciclo autunno-primavera
+melissa,0.40,1.10,0.70,20,30,60,20,45,18,0.40,stima da erbe aromatiche FAO-56
+passiflora,0.50,1.05,0.80,30,40,90,30,45,18,0.45,stima da vite e frutti tropicali FAO-56
+malva,0.40,1.05,0.70,20,30,50,20,45,18,0.40,stima da erbe aromatiche FAO-56
+escolzia,0.35,0.90,0.60,15,25,40,20,45,18,0.40,stima da fiori da taglio FAO-56
